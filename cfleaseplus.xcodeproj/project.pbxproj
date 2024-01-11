@@ -7,18 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB01D8392A5C3AA700C61D58 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01D8382A5C3AA700C61D58 /* HomeView.swift */; };
+		DB01D83B2A5C5E5F00C61D58 /* Fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01D83A2A5C5E5F00C61D58 /* Fee.swift */; };
+		DB01D83E2A5DD84B00C61D58 /* LeaseCashflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01D83D2A5DD84B00C61D58 /* LeaseCashflowView.swift */; };
+		DB01D8402A5DDA4700C61D58 /* LeaseStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01D83F2A5DDA4700C61D58 /* LeaseStatisticsView.swift */; };
+		DB01D8422A5DDBD200C61D58 /* LeaseYieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01D8412A5DDBD200C61D58 /* LeaseYieldsView.swift */; };
+		DB1E7CA02AD6EA1A0007D6C8 /* FeeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1E7C9F2AD6EA1A0007D6C8 /* FeeView2.swift */; };
+		DB2638402A55B7B000EFAE1F /* LeaseMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26383F2A55B7B000EFAE1F /* LeaseMainView.swift */; };
+		DB2638422A55B7CA00EFAE1F /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638412A55B7CA00EFAE1F /* SlideMenuView.swift */; };
+		DB2638442A55BAD900EFAE1F /* DecimalPadButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638432A55BAD900EFAE1F /* DecimalPadButtons.swift */; };
+		DB2638472A55BB3200EFAE1F /* DecimalTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638462A55BB3200EFAE1F /* DecimalTextFields.swift */; };
+		DB2638492A55BB7300EFAE1F /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638482A55BB7300EFAE1F /* PopoverView.swift */; };
+		DB26384B2A55BCF900EFAE1F /* PaymentGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26384A2A55BCF900EFAE1F /* PaymentGroupsView.swift */; };
+		DB26384D2A55BD1000EFAE1F /* OneGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26384C2A55BD1000EFAE1F /* OneGroupView.swift */; };
+		DB26384F2A55BD4E00EFAE1F /* TermAmortizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26384E2A55BD4E00EFAE1F /* TermAmortizationView.swift */; };
+		DB2638512A55BD6900EFAE1F /* EscalatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638502A55BD6900EFAE1F /* EscalatorView.swift */; };
+		DB2638532A55BDA100EFAE1F /* SkipPaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638522A55BDA100EFAE1F /* SkipPaymentsView.swift */; };
+		DB2638552A55BDC700EFAE1F /* GraduatedPaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638542A55BDC700EFAE1F /* GraduatedPaymentsView.swift */; };
+		DB26385A2A55FB2300EFAE1F /* ChopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638592A55FB2300EFAE1F /* ChopView.swift */; };
+		DB26385C2A55FB3B00EFAE1F /* DayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26385B2A55FB3B00EFAE1F /* DayCountView.swift */; };
+		DB26385E2A55FB5400EFAE1F /* FileMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26385D2A55FB5400EFAE1F /* FileMenuView.swift */; };
+		DB2638602A55FB7600EFAE1F /* FileSaveAsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26385F2A55FB7600EFAE1F /* FileSaveAsView.swift */; };
+		DB2638622A55FBE100EFAE1F /* ReportsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638612A55FBE100EFAE1F /* ReportsListView.swift */; };
+		DB2638652A55FC0F00EFAE1F /* CalculationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638642A55FC0F00EFAE1F /* CalculationsView.swift */; };
+		DB26386C2A55FC9300EFAE1F /* PVRentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26386B2A55FC9300EFAE1F /* PVRentsView.swift */; };
+		DB26386E2A55FCB000EFAE1F /* EarlyBuyoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26386D2A55FCB000EFAE1F /* EarlyBuyoutView.swift */; };
+		DB2638702A55FCC800EFAE1F /* TValuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26386F2A55FCC800EFAE1F /* TValuesView.swift */; };
+		DB2638722A55FCED00EFAE1F /* LeaseBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638712A55FCED00EFAE1F /* LeaseBalanceView.swift */; };
+		DB2638742A55FD3000EFAE1F /* SummaryReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638732A55FD3000EFAE1F /* SummaryReport.swift */; };
+		DB2638762A55FD5000EFAE1F /* AverageLifeReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638752A55FD5000EFAE1F /* AverageLifeReport.swift */; };
+		DB2638782A55FD6500EFAE1F /* CashflowReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638772A55FD6500EFAE1F /* CashflowReport.swift */; };
+		DB26387A2A55FD7F00EFAE1F /* DayCountReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638792A55FD7F00EFAE1F /* DayCountReport.swift */; };
+		DB26387C2A55FD9B00EFAE1F /* CustomerReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26387B2A55FD9B00EFAE1F /* CustomerReport.swift */; };
+		DB26387E2A55FDC500EFAE1F /* PVOfRentsReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26387D2A55FDC500EFAE1F /* PVOfRentsReport.swift */; };
+		DB2638802A55FDEA00EFAE1F /* LeaseBalanceReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26387F2A55FDEA00EFAE1F /* LeaseBalanceReport.swift */; };
+		DB2638842A55FEDA00EFAE1F /* FileOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638832A55FEDA00EFAE1F /* FileOpenView.swift */; };
+		DB2638872A55FF7600EFAE1F /* AmortizationReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638862A55FF7600EFAE1F /* AmortizationReportsView.swift */; };
+		DB26388A2A55FFAB00EFAE1F /* AmortizationsReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638892A55FFAB00EFAE1F /* AmortizationsReport.swift */; };
+		DB26388C2A55FFC400EFAE1F /* AnnualInterestReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26388B2A55FFC400EFAE1F /* AnnualInterestReport.swift */; };
+		DB26388E2A56000F00EFAE1F /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26388D2A56000F00EFAE1F /* PreferencesView.swift */; };
+		DB2638902A56002A00EFAE1F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26388F2A56002A00EFAE1F /* AboutView.swift */; };
+		DB2638922A56009D00EFAE1F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638912A56009D00EFAE1F /* LaunchView.swift */; };
+		DB2638952A56016B00EFAE1F /* TValuesReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638942A56016B00EFAE1F /* TValuesReport.swift */; };
+		DB2638972A5601D800EFAE1F /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2638962A5601D800EFAE1F /* MailView.swift */; };
+		DB26389B2A56FC6700EFAE1F /* MailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26389A2A56FC6700EFAE1F /* MailData.swift */; };
+		DB26389D2A570AE100EFAE1F /* SubscriptionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26389C2A570AE100EFAE1F /* SubscriptionLevel.swift */; };
+		DB26389F2A5729B800EFAE1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB26389E2A5729B800EFAE1F /* LaunchScreen.storyboard */; };
+		DB5448472A630A7500806646 /* FeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5448462A630A7500806646 /* FeesView.swift */; };
+		DB5448492A630BF000806646 /* FeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5448482A630BF000806646 /* FeeView.swift */; };
+		DB5448812A73107B00806646 /* CancelAndDoneButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5448802A73107B00806646 /* CancelAndDoneButtons.swift */; };
+		DB5448832A783D7000806646 /* FormGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5448822A783D7000806646 /* FormGlobals.swift */; };
+		DB5448852A7E737500806646 /* LoanCashflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5448842A7E737500806646 /* LoanCashflowView.swift */; };
 		DBC22EE02A5462770016DF6A /* cfleaseplusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EDF2A5462770016DF6A /* cfleaseplusApp.swift */; };
 		DBC22EE22A5462770016DF6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EE12A5462770016DF6A /* ContentView.swift */; };
 		DBC22EE42A5462790016DF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC22EE32A5462790016DF6A /* Assets.xcassets */; };
 		DBC22EE72A5462790016DF6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC22EE62A5462790016DF6A /* Preview Assets.xcassets */; };
+		DBC22EEF2A5465560016DF6A /* Amortizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EEE2A5465560016DF6A /* Amortizations.swift */; };
+		DBC22EF12A5465740016DF6A /* AverageLives.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EF02A5465740016DF6A /* AverageLives.swift */; };
+		DBC22EF32A5465990016DF6A /* Cashflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EF22A5465990016DF6A /* Cashflow.swift */; };
+		DBC22EF52A5465D70016DF6A /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EF42A5465D70016DF6A /* Classes.swift */; };
+		DBC22EF72A5465FD0016DF6A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EF62A5465FD0016DF6A /* DataModel.swift */; };
+		DBC22EF92A5466100016DF6A /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EF82A5466100016DF6A /* Dates.swift */; };
+		DBC22EFB2A5466270016DF6A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EFA2A5466270016DF6A /* Enums.swift */; };
+		DBC22EFD2A54664E0016DF6A /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EFC2A54664E0016DF6A /* FileManager.swift */; };
+		DBC22EFF2A54669D0016DF6A /* LeaseDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22EFE2A54669D0016DF6A /* LeaseDocument.swift */; };
+		DBC22F012A5466BD0016DF6A /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F002A5466BD0016DF6A /* Globals.swift */; };
+		DBC22F032A5466D60016DF6A /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F022A5466D60016DF6A /* Help.swift */; };
+		DBC22F052A5466EE0016DF6A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F042A5466EE0016DF6A /* Math.swift */; };
+		DBC22F072A54670A0016DF6A /* Modifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F062A54670A0016DF6A /* Modifications.swift */; };
+		DBC22F092A5467320016DF6A /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F082A5467320016DF6A /* Validations.swift */; };
+		DBC22F0B2A5467860016DF6A /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F0A2A5467860016DF6A /* ViewModifier.swift */; };
+		DBC22F102A5484570016DF6A /* Boolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F0F2A5484570016DF6A /* Boolean.swift */; };
+		DBC22F122A54846A0016DF6A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F112A54846A0016DF6A /* Color.swift */; };
+		DBC22F142A54847A0016DF6A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F132A54847A0016DF6A /* Date.swift */; };
+		DBC22F162A54848C0016DF6A /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F152A54848C0016DF6A /* Decimal.swift */; };
+		DBC22F182A54849D0016DF6A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F172A54849D0016DF6A /* Double.swift */; };
+		DBC22F1A2A5484AD0016DF6A /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F192A5484AD0016DF6A /* Integer.swift */; };
+		DBC22F1C2A5484C60016DF6A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F1B2A5484C60016DF6A /* String.swift */; };
+		DBC22F1E2A5487080016DF6A /* AnnualInterestExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F1D2A5487080016DF6A /* AnnualInterestExpense.swift */; };
+		DBC22F202A54872B0016DF6A /* ChangeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F1F2A54872B0016DF6A /* ChangeFactors.swift */; };
+		DBC22F222A54874A0016DF6A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F212A54874A0016DF6A /* Data.swift */; };
+		DBC22F242A5487670016DF6A /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F232A5487670016DF6A /* Group.swift */; };
+		DBC22F262A54877B0016DF6A /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F252A54877B0016DF6A /* Groups.swift */; };
+		DBC22F282A5487900016DF6A /* Lease.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F272A5487900016DF6A /* Lease.swift */; };
+		DBC22F2A2A5487B20016DF6A /* LeaseAmortizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F292A5487B20016DF6A /* LeaseAmortizations.swift */; };
+		DBC22F2C2A5487D50016DF6A /* LeaseFxns.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F2B2A5487D50016DF6A /* LeaseFxns.swift */; };
+		DBC22F2E2A5487F30016DF6A /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F2D2A5487F30016DF6A /* Payments.swift */; };
+		DBC22F302A5488080016DF6A /* Resets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F2F2A5488080016DF6A /* Resets.swift */; };
+		DBC22F322A5488340016DF6A /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F312A5488340016DF6A /* Structures.swift */; };
+		DBC22F342A5488560016DF6A /* Targeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F332A5488560016DF6A /* Targeting.swift */; };
+		DBC22F362A5488CF0016DF6A /* ArrayFx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F352A5488CF0016DF6A /* ArrayFx.swift */; };
+		DBC22F382A5488E30016DF6A /* FormatFx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F372A5488E30016DF6A /* FormatFx.swift */; };
+		DBC22F3A2A5488F60016DF6A /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F392A5488F60016DF6A /* Summary.swift */; };
+		DBC22F3C2A5489060016DF6A /* Tabular.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22F3B2A5489060016DF6A /* Tabular.swift */; };
+		DBC71BAB2A86ABC200FE00CB /* LoanStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC71BAA2A86ABC200FE00CB /* LoanStatisticsView.swift */; };
+		DBC71BAD2A86ABE100FE00CB /* LoanYieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC71BAC2A86ABE100FE00CB /* LoanYieldsView.swift */; };
+		DBC71BAF2A87D6E100FE00CB /* TargetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC71BAE2A87D6E100FE00CB /* TargetingView.swift */; };
+		DBC71BB12A87D71800FE00CB /* SpreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC71BB02A87D71800FE00CB /* SpreadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB01D8382A5C3AA700C61D58 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB01D83A2A5C5E5F00C61D58 /* Fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fee.swift; sourceTree = "<group>"; };
+		DB01D83D2A5DD84B00C61D58 /* LeaseCashflowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseCashflowView.swift; sourceTree = "<group>"; };
+		DB01D83F2A5DDA4700C61D58 /* LeaseStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseStatisticsView.swift; sourceTree = "<group>"; };
+		DB01D8412A5DDBD200C61D58 /* LeaseYieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseYieldsView.swift; sourceTree = "<group>"; };
+		DB1E7C9F2AD6EA1A0007D6C8 /* FeeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeView2.swift; sourceTree = "<group>"; };
+		DB26383F2A55B7B000EFAE1F /* LeaseMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseMainView.swift; sourceTree = "<group>"; };
+		DB2638412A55B7CA00EFAE1F /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
+		DB2638432A55BAD900EFAE1F /* DecimalPadButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalPadButtons.swift; sourceTree = "<group>"; };
+		DB2638462A55BB3200EFAE1F /* DecimalTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalTextFields.swift; sourceTree = "<group>"; };
+		DB2638482A55BB7300EFAE1F /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		DB26384A2A55BCF900EFAE1F /* PaymentGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGroupsView.swift; sourceTree = "<group>"; };
+		DB26384C2A55BD1000EFAE1F /* OneGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneGroupView.swift; sourceTree = "<group>"; };
+		DB26384E2A55BD4E00EFAE1F /* TermAmortizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermAmortizationView.swift; sourceTree = "<group>"; };
+		DB2638502A55BD6900EFAE1F /* EscalatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscalatorView.swift; sourceTree = "<group>"; };
+		DB2638522A55BDA100EFAE1F /* SkipPaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipPaymentsView.swift; sourceTree = "<group>"; };
+		DB2638542A55BDC700EFAE1F /* GraduatedPaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatedPaymentsView.swift; sourceTree = "<group>"; };
+		DB2638592A55FB2300EFAE1F /* ChopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChopView.swift; sourceTree = "<group>"; };
+		DB26385B2A55FB3B00EFAE1F /* DayCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountView.swift; sourceTree = "<group>"; };
+		DB26385D2A55FB5400EFAE1F /* FileMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMenuView.swift; sourceTree = "<group>"; };
+		DB26385F2A55FB7600EFAE1F /* FileSaveAsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSaveAsView.swift; sourceTree = "<group>"; };
+		DB2638612A55FBE100EFAE1F /* ReportsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsListView.swift; sourceTree = "<group>"; };
+		DB2638642A55FC0F00EFAE1F /* CalculationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsView.swift; sourceTree = "<group>"; };
+		DB26386B2A55FC9300EFAE1F /* PVRentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVRentsView.swift; sourceTree = "<group>"; };
+		DB26386D2A55FCB000EFAE1F /* EarlyBuyoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyBuyoutView.swift; sourceTree = "<group>"; };
+		DB26386F2A55FCC800EFAE1F /* TValuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TValuesView.swift; sourceTree = "<group>"; };
+		DB2638712A55FCED00EFAE1F /* LeaseBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseBalanceView.swift; sourceTree = "<group>"; };
+		DB2638732A55FD3000EFAE1F /* SummaryReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryReport.swift; sourceTree = "<group>"; };
+		DB2638752A55FD5000EFAE1F /* AverageLifeReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageLifeReport.swift; sourceTree = "<group>"; };
+		DB2638772A55FD6500EFAE1F /* CashflowReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashflowReport.swift; sourceTree = "<group>"; };
+		DB2638792A55FD7F00EFAE1F /* DayCountReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountReport.swift; sourceTree = "<group>"; };
+		DB26387B2A55FD9B00EFAE1F /* CustomerReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerReport.swift; sourceTree = "<group>"; };
+		DB26387D2A55FDC500EFAE1F /* PVOfRentsReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVOfRentsReport.swift; sourceTree = "<group>"; };
+		DB26387F2A55FDEA00EFAE1F /* LeaseBalanceReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseBalanceReport.swift; sourceTree = "<group>"; };
+		DB2638832A55FEDA00EFAE1F /* FileOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOpenView.swift; sourceTree = "<group>"; };
+		DB2638862A55FF7600EFAE1F /* AmortizationReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizationReportsView.swift; sourceTree = "<group>"; };
+		DB2638892A55FFAB00EFAE1F /* AmortizationsReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizationsReport.swift; sourceTree = "<group>"; };
+		DB26388B2A55FFC400EFAE1F /* AnnualInterestReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnualInterestReport.swift; sourceTree = "<group>"; };
+		DB26388D2A56000F00EFAE1F /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		DB26388F2A56002A00EFAE1F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DB2638912A56009D00EFAE1F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		DB2638942A56016B00EFAE1F /* TValuesReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TValuesReport.swift; sourceTree = "<group>"; };
+		DB2638962A5601D800EFAE1F /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		DB26389A2A56FC6700EFAE1F /* MailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailData.swift; sourceTree = "<group>"; };
+		DB26389C2A570AE100EFAE1F /* SubscriptionLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionLevel.swift; sourceTree = "<group>"; };
+		DB26389E2A5729B800EFAE1F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5448462A630A7500806646 /* FeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeesView.swift; sourceTree = "<group>"; };
+		DB5448482A630BF000806646 /* FeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeView.swift; sourceTree = "<group>"; };
+		DB5448802A73107B00806646 /* CancelAndDoneButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAndDoneButtons.swift; sourceTree = "<group>"; };
+		DB5448822A783D7000806646 /* FormGlobals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormGlobals.swift; sourceTree = "<group>"; };
+		DB5448842A7E737500806646 /* LoanCashflowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCashflowView.swift; sourceTree = "<group>"; };
 		DBC22EDC2A5462770016DF6A /* cfleaseplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cfleaseplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC22EDF2A5462770016DF6A /* cfleaseplusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cfleaseplusApp.swift; sourceTree = "<group>"; };
 		DBC22EE12A5462770016DF6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBC22EE32A5462790016DF6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC22EE62A5462790016DF6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC22EEE2A5465560016DF6A /* Amortizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amortizations.swift; sourceTree = "<group>"; };
+		DBC22EF02A5465740016DF6A /* AverageLives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageLives.swift; sourceTree = "<group>"; };
+		DBC22EF22A5465990016DF6A /* Cashflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashflow.swift; sourceTree = "<group>"; };
+		DBC22EF42A5465D70016DF6A /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		DBC22EF62A5465FD0016DF6A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DBC22EF82A5466100016DF6A /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		DBC22EFA2A5466270016DF6A /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DBC22EFC2A54664E0016DF6A /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		DBC22EFE2A54669D0016DF6A /* LeaseDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseDocument.swift; sourceTree = "<group>"; };
+		DBC22F002A5466BD0016DF6A /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		DBC22F022A5466D60016DF6A /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		DBC22F042A5466EE0016DF6A /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		DBC22F062A54670A0016DF6A /* Modifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifications.swift; sourceTree = "<group>"; };
+		DBC22F082A5467320016DF6A /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		DBC22F0A2A5467860016DF6A /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		DBC22F0F2A5484570016DF6A /* Boolean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boolean.swift; sourceTree = "<group>"; };
+		DBC22F112A54846A0016DF6A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DBC22F132A54847A0016DF6A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		DBC22F152A54848C0016DF6A /* Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		DBC22F172A54849D0016DF6A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		DBC22F192A5484AD0016DF6A /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		DBC22F1B2A5484C60016DF6A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DBC22F1D2A5487080016DF6A /* AnnualInterestExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnualInterestExpense.swift; sourceTree = "<group>"; };
+		DBC22F1F2A54872B0016DF6A /* ChangeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeFactors.swift; sourceTree = "<group>"; };
+		DBC22F212A54874A0016DF6A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DBC22F232A5487670016DF6A /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		DBC22F252A54877B0016DF6A /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		DBC22F272A5487900016DF6A /* Lease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lease.swift; sourceTree = "<group>"; };
+		DBC22F292A5487B20016DF6A /* LeaseAmortizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseAmortizations.swift; sourceTree = "<group>"; };
+		DBC22F2B2A5487D50016DF6A /* LeaseFxns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseFxns.swift; sourceTree = "<group>"; };
+		DBC22F2D2A5487F30016DF6A /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		DBC22F2F2A5488080016DF6A /* Resets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resets.swift; sourceTree = "<group>"; };
+		DBC22F312A5488340016DF6A /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		DBC22F332A5488560016DF6A /* Targeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targeting.swift; sourceTree = "<group>"; };
+		DBC22F352A5488CF0016DF6A /* ArrayFx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayFx.swift; sourceTree = "<group>"; };
+		DBC22F372A5488E30016DF6A /* FormatFx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatFx.swift; sourceTree = "<group>"; };
+		DBC22F392A5488F60016DF6A /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		DBC22F3B2A5489060016DF6A /* Tabular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabular.swift; sourceTree = "<group>"; };
+		DBC71BAA2A86ABC200FE00CB /* LoanStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStatisticsView.swift; sourceTree = "<group>"; };
+		DBC71BAC2A86ABE100FE00CB /* LoanYieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanYieldsView.swift; sourceTree = "<group>"; };
+		DBC71BAE2A87D6E100FE00CB /* TargetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingView.swift; sourceTree = "<group>"; };
+		DBC71BB02A87D71800FE00CB /* SpreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +218,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB01D83C2A5DCABF00C61D58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB01D8382A5C3AA700C61D58 /* HomeView.swift */,
+				DB01D83D2A5DD84B00C61D58 /* LeaseCashflowView.swift */,
+				DB01D83F2A5DDA4700C61D58 /* LeaseStatisticsView.swift */,
+				DB01D8412A5DDBD200C61D58 /* LeaseYieldsView.swift */,
+				DB5448842A7E737500806646 /* LoanCashflowView.swift */,
+				DBC71BAA2A86ABC200FE00CB /* LoanStatisticsView.swift */,
+				DBC71BAC2A86ABE100FE00CB /* LoanYieldsView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DB2638452A55BADE00EFAE1F /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638432A55BAD900EFAE1F /* DecimalPadButtons.swift */,
+				DB2638462A55BB3200EFAE1F /* DecimalTextFields.swift */,
+				DB5448802A73107B00806646 /* CancelAndDoneButtons.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		DB2638562A55BDCF00EFAE1F /* StructuredViews */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638502A55BD6900EFAE1F /* EscalatorView.swift */,
+				DB2638542A55BDC700EFAE1F /* GraduatedPaymentsView.swift */,
+				DB2638522A55BDA100EFAE1F /* SkipPaymentsView.swift */,
+				DB26384E2A55BD4E00EFAE1F /* TermAmortizationView.swift */,
+			);
+			path = StructuredViews;
+			sourceTree = "<group>";
+		};
+		DB2638572A55BE0300EFAE1F /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638482A55BB7300EFAE1F /* PopoverView.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		DB2638582A55FAEE00EFAE1F /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638662A55FC1700EFAE1F /* Calculations */,
+				DB2638592A55FB2300EFAE1F /* ChopView.swift */,
+				DB26385B2A55FB3B00EFAE1F /* DayCountView.swift */,
+				DB2638822A55FE9300EFAE1F /* FileManagement */,
+				DB2638632A55FBE700EFAE1F /* Reports */,
+				DB2638412A55B7CA00EFAE1F /* SlideMenuView.swift */,
+				DBC71BAE2A87D6E100FE00CB /* TargetingView.swift */,
+				DBC71BB02A87D71800FE00CB /* SpreadView.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		DB2638632A55FBE700EFAE1F /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638882A55FF7B00EFAE1F /* AmortizationReports */,
+				DB2638772A55FD6500EFAE1F /* CashflowReport.swift */,
+				DB26387B2A55FD9B00EFAE1F /* CustomerReport.swift */,
+				DB2638792A55FD7F00EFAE1F /* DayCountReport.swift */,
+				DB26387F2A55FDEA00EFAE1F /* LeaseBalanceReport.swift */,
+				DB26387D2A55FDC500EFAE1F /* PVOfRentsReport.swift */,
+				DB2638612A55FBE100EFAE1F /* ReportsListView.swift */,
+				DB2638732A55FD3000EFAE1F /* SummaryReport.swift */,
+				DB2638942A56016B00EFAE1F /* TValuesReport.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		DB2638662A55FC1700EFAE1F /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638642A55FC0F00EFAE1F /* CalculationsView.swift */,
+				DB26386D2A55FCB000EFAE1F /* EarlyBuyoutView.swift */,
+				DB2638712A55FCED00EFAE1F /* LeaseBalanceView.swift */,
+				DB26386B2A55FC9300EFAE1F /* PVRentsView.swift */,
+				DB26386F2A55FCC800EFAE1F /* TValuesView.swift */,
+			);
+			path = Calculations;
+			sourceTree = "<group>";
+		};
+		DB2638822A55FE9300EFAE1F /* FileManagement */ = {
+			isa = PBXGroup;
+			children = (
+				DB26385D2A55FB5400EFAE1F /* FileMenuView.swift */,
+				DB2638832A55FEDA00EFAE1F /* FileOpenView.swift */,
+				DB26385F2A55FB7600EFAE1F /* FileSaveAsView.swift */,
+			);
+			path = FileManagement;
+			sourceTree = "<group>";
+		};
+		DB2638882A55FF7B00EFAE1F /* AmortizationReports */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638862A55FF7600EFAE1F /* AmortizationReportsView.swift */,
+				DB2638892A55FFAB00EFAE1F /* AmortizationsReport.swift */,
+				DB26388B2A55FFC400EFAE1F /* AnnualInterestReport.swift */,
+				DB2638752A55FD5000EFAE1F /* AverageLifeReport.swift */,
+			);
+			path = AmortizationReports;
+			sourceTree = "<group>";
+		};
+		DB2638932A5600A700EFAE1F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638912A56009D00EFAE1F /* LaunchView.swift */,
+				DB26389E2A5729B800EFAE1F /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DB2638982A5601F200EFAE1F /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				DB2638962A5601D800EFAE1F /* MailView.swift */,
+				DB26389A2A56FC6700EFAE1F /* MailData.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
 		DBC22ED32A5462770016DF6A = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +362,13 @@
 		DBC22EDE2A5462770016DF6A /* cfleaseplus */ = {
 			isa = PBXGroup;
 			children = (
-				DBC22EDF2A5462770016DF6A /* cfleaseplusApp.swift */,
-				DBC22EE12A5462770016DF6A /* ContentView.swift */,
 				DBC22EE32A5462790016DF6A /* Assets.xcassets */,
+				DBC22EDF2A5462770016DF6A /* cfleaseplusApp.swift */,
+				DB2638982A5601F200EFAE1F /* Mail */,
+				DBC22EED2A5462C40016DF6A /* Model */,
 				DBC22EE52A5462790016DF6A /* Preview Content */,
+				DBC22F3D2A55A8F50016DF6A /* Views */,
+				DB26389C2A570AE100EFAE1F /* SubscriptionLevel.swift */,
 			);
 			path = cfleaseplus;
 			sourceTree = "<group>";
@@ -65,6 +379,99 @@
 				DBC22EE62A5462790016DF6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBC22EED2A5462C40016DF6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22EEE2A5465560016DF6A /* Amortizations.swift */,
+				DBC22EF02A5465740016DF6A /* AverageLives.swift */,
+				DBC22EF22A5465990016DF6A /* Cashflow.swift */,
+				DBC22EF42A5465D70016DF6A /* Classes.swift */,
+				DBC22EF62A5465FD0016DF6A /* DataModel.swift */,
+				DBC22EF82A5466100016DF6A /* Dates.swift */,
+				DBC22EFA2A5466270016DF6A /* Enums.swift */,
+				DBC22F0C2A5467EF0016DF6A /* Extensions */,
+				DBC22EFC2A54664E0016DF6A /* FileManager.swift */,
+				DBC22F002A5466BD0016DF6A /* Globals.swift */,
+				DBC22F022A5466D60016DF6A /* Help.swift */,
+				DBC22EFE2A54669D0016DF6A /* LeaseDocument.swift */,
+				DBC22F0D2A54680A0016DF6A /* LeaseModel */,
+				DBC22F042A5466EE0016DF6A /* Math.swift */,
+				DBC22F062A54670A0016DF6A /* Modifications.swift */,
+				DBC22F0E2A5468400016DF6A /* Reports */,
+				DBC22F082A5467320016DF6A /* Validations.swift */,
+				DBC22F0A2A5467860016DF6A /* ViewModifier.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBC22F0C2A5467EF0016DF6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22F0F2A5484570016DF6A /* Boolean.swift */,
+				DBC22F112A54846A0016DF6A /* Color.swift */,
+				DBC22F132A54847A0016DF6A /* Date.swift */,
+				DBC22F152A54848C0016DF6A /* Decimal.swift */,
+				DBC22F172A54849D0016DF6A /* Double.swift */,
+				DBC22F192A5484AD0016DF6A /* Integer.swift */,
+				DBC22F1B2A5484C60016DF6A /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DBC22F0D2A54680A0016DF6A /* LeaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22F1D2A5487080016DF6A /* AnnualInterestExpense.swift */,
+				DBC22F1F2A54872B0016DF6A /* ChangeFactors.swift */,
+				DBC22F212A54874A0016DF6A /* Data.swift */,
+				DB01D83A2A5C5E5F00C61D58 /* Fee.swift */,
+				DBC22F232A5487670016DF6A /* Group.swift */,
+				DBC22F252A54877B0016DF6A /* Groups.swift */,
+				DBC22F272A5487900016DF6A /* Lease.swift */,
+				DBC22F292A5487B20016DF6A /* LeaseAmortizations.swift */,
+				DBC22F2B2A5487D50016DF6A /* LeaseFxns.swift */,
+				DBC22F2D2A5487F30016DF6A /* Payments.swift */,
+				DBC22F2F2A5488080016DF6A /* Resets.swift */,
+				DBC22F312A5488340016DF6A /* Structures.swift */,
+				DBC22F332A5488560016DF6A /* Targeting.swift */,
+			);
+			path = LeaseModel;
+			sourceTree = "<group>";
+		};
+		DBC22F0E2A5468400016DF6A /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22F352A5488CF0016DF6A /* ArrayFx.swift */,
+				DBC22F372A5488E30016DF6A /* FormatFx.swift */,
+				DBC22F392A5488F60016DF6A /* Summary.swift */,
+				DBC22F3B2A5489060016DF6A /* Tabular.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		DBC22F3D2A55A8F50016DF6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB26388F2A56002A00EFAE1F /* AboutView.swift */,
+				DBC22EE12A5462770016DF6A /* ContentView.swift */,
+				DB5448462A630A7500806646 /* FeesView.swift */,
+				DB5448482A630BF000806646 /* FeeView.swift */,
+				DB1E7C9F2AD6EA1A0007D6C8 /* FeeView2.swift */,
+				DB5448822A783D7000806646 /* FormGlobals.swift */,
+				DB01D83C2A5DCABF00C61D58 /* Home */,
+				DB2638932A5600A700EFAE1F /* Launch */,
+				DB26383F2A55B7B000EFAE1F /* LeaseMainView.swift */,
+				DB26384C2A55BD1000EFAE1F /* OneGroupView.swift */,
+				DB26384A2A55BCF900EFAE1F /* PaymentGroupsView.swift */,
+				DB2638572A55BE0300EFAE1F /* Popover */,
+				DB26388D2A56000F00EFAE1F /* PreferencesView.swift */,
+				DB2638452A55BADE00EFAE1F /* ReusableViews */,
+				DB2638582A55FAEE00EFAE1F /* SlideMenu */,
+				DB2638562A55BDCF00EFAE1F /* StructuredViews */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB26389F2A5729B800EFAE1F /* LaunchScreen.storyboard in Resources */,
 				DBC22EE72A5462790016DF6A /* Preview Assets.xcassets in Resources */,
 				DBC22EE42A5462790016DF6A /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +545,100 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC22F262A54877B0016DF6A /* Groups.swift in Sources */,
+				DBC22EF72A5465FD0016DF6A /* DataModel.swift in Sources */,
+				DBC22F282A5487900016DF6A /* Lease.swift in Sources */,
+				DB2638872A55FF7600EFAE1F /* AmortizationReportsView.swift in Sources */,
 				DBC22EE22A5462770016DF6A /* ContentView.swift in Sources */,
 				DBC22EE02A5462770016DF6A /* cfleaseplusApp.swift in Sources */,
+				DB26389B2A56FC6700EFAE1F /* MailData.swift in Sources */,
+				DB26387A2A55FD7F00EFAE1F /* DayCountReport.swift in Sources */,
+				DBC22F052A5466EE0016DF6A /* Math.swift in Sources */,
+				DBC71BB12A87D71800FE00CB /* SpreadView.swift in Sources */,
+				DBC22F382A5488E30016DF6A /* FormatFx.swift in Sources */,
+				DBC22EF52A5465D70016DF6A /* Classes.swift in Sources */,
+				DBC22F1A2A5484AD0016DF6A /* Integer.swift in Sources */,
+				DB26384F2A55BD4E00EFAE1F /* TermAmortizationView.swift in Sources */,
+				DBC22F1C2A5484C60016DF6A /* String.swift in Sources */,
+				DBC22F242A5487670016DF6A /* Group.swift in Sources */,
+				DBC22F3C2A5489060016DF6A /* Tabular.swift in Sources */,
+				DBC22F322A5488340016DF6A /* Structures.swift in Sources */,
+				DB2638902A56002A00EFAE1F /* AboutView.swift in Sources */,
+				DB26385C2A55FB3B00EFAE1F /* DayCountView.swift in Sources */,
+				DB01D8422A5DDBD200C61D58 /* LeaseYieldsView.swift in Sources */,
+				DB2638402A55B7B000EFAE1F /* LeaseMainView.swift in Sources */,
+				DBC22EF32A5465990016DF6A /* Cashflow.swift in Sources */,
+				DBC22F302A5488080016DF6A /* Resets.swift in Sources */,
+				DBC22F162A54848C0016DF6A /* Decimal.swift in Sources */,
+				DB26385A2A55FB2300EFAE1F /* ChopView.swift in Sources */,
+				DB2638512A55BD6900EFAE1F /* EscalatorView.swift in Sources */,
+				DB2638472A55BB3200EFAE1F /* DecimalTextFields.swift in Sources */,
+				DB2638622A55FBE100EFAE1F /* ReportsListView.swift in Sources */,
+				DB01D83B2A5C5E5F00C61D58 /* Fee.swift in Sources */,
+				DB2638702A55FCC800EFAE1F /* TValuesView.swift in Sources */,
+				DB5448852A7E737500806646 /* LoanCashflowView.swift in Sources */,
+				DB2638842A55FEDA00EFAE1F /* FileOpenView.swift in Sources */,
+				DB2638972A5601D800EFAE1F /* MailView.swift in Sources */,
+				DB26389D2A570AE100EFAE1F /* SubscriptionLevel.swift in Sources */,
+				DB2638742A55FD3000EFAE1F /* SummaryReport.swift in Sources */,
+				DBC22F362A5488CF0016DF6A /* ArrayFx.swift in Sources */,
+				DBC22F3A2A5488F60016DF6A /* Summary.swift in Sources */,
+				DBC22EFD2A54664E0016DF6A /* FileManager.swift in Sources */,
+				DB26384B2A55BCF900EFAE1F /* PaymentGroupsView.swift in Sources */,
+				DB26386E2A55FCB000EFAE1F /* EarlyBuyoutView.swift in Sources */,
+				DB2638552A55BDC700EFAE1F /* GraduatedPaymentsView.swift in Sources */,
+				DB1E7CA02AD6EA1A0007D6C8 /* FeeView2.swift in Sources */,
+				DBC71BAB2A86ABC200FE00CB /* LoanStatisticsView.swift in Sources */,
+				DB2638442A55BAD900EFAE1F /* DecimalPadButtons.swift in Sources */,
+				DBC22EFF2A54669D0016DF6A /* LeaseDocument.swift in Sources */,
+				DB2638952A56016B00EFAE1F /* TValuesReport.swift in Sources */,
+				DBC22EEF2A5465560016DF6A /* Amortizations.swift in Sources */,
+				DBC22F1E2A5487080016DF6A /* AnnualInterestExpense.swift in Sources */,
+				DB26386C2A55FC9300EFAE1F /* PVRentsView.swift in Sources */,
+				DB26385E2A55FB5400EFAE1F /* FileMenuView.swift in Sources */,
+				DB2638652A55FC0F00EFAE1F /* CalculationsView.swift in Sources */,
+				DB26384D2A55BD1000EFAE1F /* OneGroupView.swift in Sources */,
+				DB2638922A56009D00EFAE1F /* LaunchView.swift in Sources */,
+				DBC22F012A5466BD0016DF6A /* Globals.swift in Sources */,
+				DBC22F102A5484570016DF6A /* Boolean.swift in Sources */,
+				DB26388A2A55FFAB00EFAE1F /* AmortizationsReport.swift in Sources */,
+				DB01D8392A5C3AA700C61D58 /* HomeView.swift in Sources */,
+				DBC22F142A54847A0016DF6A /* Date.swift in Sources */,
+				DB2638782A55FD6500EFAE1F /* CashflowReport.swift in Sources */,
+				DB2638602A55FB7600EFAE1F /* FileSaveAsView.swift in Sources */,
+				DBC22F2C2A5487D50016DF6A /* LeaseFxns.swift in Sources */,
+				DBC22F122A54846A0016DF6A /* Color.swift in Sources */,
+				DB26387C2A55FD9B00EFAE1F /* CustomerReport.swift in Sources */,
+				DBC22F092A5467320016DF6A /* Validations.swift in Sources */,
+				DBC22F2A2A5487B20016DF6A /* LeaseAmortizations.swift in Sources */,
+				DBC22F032A5466D60016DF6A /* Help.swift in Sources */,
+				DB2638492A55BB7300EFAE1F /* PopoverView.swift in Sources */,
+				DBC22F0B2A5467860016DF6A /* ViewModifier.swift in Sources */,
+				DB5448492A630BF000806646 /* FeeView.swift in Sources */,
+				DBC22F072A54670A0016DF6A /* Modifications.swift in Sources */,
+				DBC22EF12A5465740016DF6A /* AverageLives.swift in Sources */,
+				DB5448832A783D7000806646 /* FormGlobals.swift in Sources */,
+				DB26387E2A55FDC500EFAE1F /* PVOfRentsReport.swift in Sources */,
+				DBC22F2E2A5487F30016DF6A /* Payments.swift in Sources */,
+				DBC22EFB2A5466270016DF6A /* Enums.swift in Sources */,
+				DBC71BAF2A87D6E100FE00CB /* TargetingView.swift in Sources */,
+				DBC22F342A5488560016DF6A /* Targeting.swift in Sources */,
+				DB01D8402A5DDA4700C61D58 /* LeaseStatisticsView.swift in Sources */,
+				DB26388C2A55FFC400EFAE1F /* AnnualInterestReport.swift in Sources */,
+				DBC22F182A54849D0016DF6A /* Double.swift in Sources */,
+				DBC22F202A54872B0016DF6A /* ChangeFactors.swift in Sources */,
+				DB2638532A55BDA100EFAE1F /* SkipPaymentsView.swift in Sources */,
+				DB01D83E2A5DD84B00C61D58 /* LeaseCashflowView.swift in Sources */,
+				DBC22F222A54874A0016DF6A /* Data.swift in Sources */,
+				DB5448812A73107B00806646 /* CancelAndDoneButtons.swift in Sources */,
+				DB2638722A55FCED00EFAE1F /* LeaseBalanceView.swift in Sources */,
+				DBC71BAD2A86ABE100FE00CB /* LoanYieldsView.swift in Sources */,
+				DB26388E2A56000F00EFAE1F /* PreferencesView.swift in Sources */,
+				DBC22EF92A5466100016DF6A /* Dates.swift in Sources */,
+				DB5448472A630A7500806646 /* FeesView.swift in Sources */,
+				DB2638762A55FD5000EFAE1F /* AverageLifeReport.swift in Sources */,
+				DB2638422A55B7CA00EFAE1F /* SlideMenuView.swift in Sources */,
+				DB2638802A55FDEA00EFAE1F /* LeaseBalanceReport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +770,12 @@
 				DEVELOPMENT_TEAM = R2A6TWK69S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CFLease+";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +802,12 @@
 				DEVELOPMENT_TEAM = R2A6TWK69S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CFLease+";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
